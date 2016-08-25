@@ -2,7 +2,7 @@
 <body class="login-page">
 <div class="login-box">
     <div class="login-logo">
-        <a href="#"><b>{$config['appName']}</b></a>
+        <a href="/"><b>{$config['appName']}</b></a>
     </div><!-- /.login-logo -->
     <div class="login-box-body">
         <p class="login-box-msg">重置密码</p>
@@ -16,23 +16,21 @@
         </form>
         <div class="row">
 
-            <div class="col-xs-4">
+            <div class="col-xs-12">
                 <button id="reset" type="submit" class="btn btn-primary btn-block btn-flat">重置密码</button>
             </div><!-- /.col -->
+
         </div>
+        <br>
         <div id="msg-success" class="alert alert-info alert-dismissable" style="display: none;">
             <button type="button" class="close" id="ok-close" aria-hidden="true">&times;</button>
-            <h4><i class="icon fa fa-info"></i> 成功!</h4>
-            <p id="msg-success-p"></p>
+            <h4><i class="icon fa fa-info"></i><span id="msg-success-p"></span></h4>
         </div>
         <div id="msg-error" class="alert alert-warning alert-dismissable" style="display: none;">
             <button type="button" class="close" id="error-close" aria-hidden="true">&times;</button>
-            <h4><i class="icon fa fa-warning"></i> 出错了!</h4>
-            <p id="msg-error-p"></p>
+            <h4><i class="icon fa fa-warning"></i><span id="msg-error-p"></span></h4>
+            
         </div>
-        <a href="/auth/login">登陆</a><br>
-        <a href="/auth/register" class="text-center">注册个帐号</a>
-
     </div><!-- /.login-box-body -->
 </div><!-- /.login-box -->
 

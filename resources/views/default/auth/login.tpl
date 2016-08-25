@@ -5,7 +5,7 @@
         <a href="#"><b>{$config['appName']}</b></a>
     </div><!-- /.login-logo -->
     <div class="login-box-body">
-        <p class="login-box-msg">登录到用户中心</p>
+  
 
         <form>
             <div class="form-group has-feedback">
@@ -39,8 +39,17 @@
             <h4><i class="icon fa fa-warning"></i> 出错了!</h4>
             <p id="msg-error-p"></p>
         </div>
-        <a href="/password/reset">忘记密码</a><br>
-        <a href="/auth/register" class="text-center">注册个帐号</a>
+
+        <div class="row">
+            <div class="col-xs-8">
+                    <a href="/password/reset">忘记密码</a>
+            </div><!-- /.col -->
+            <div class="col-xs-4">
+                <a href="/auth/register" class="text-center">免费注册</a>
+            </div><!-- /.col -->
+        </div>
+        
+        
 
     </div><!-- /.login-box-body -->
 </div><!-- /.login-box -->
