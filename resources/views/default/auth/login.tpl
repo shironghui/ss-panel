@@ -2,7 +2,7 @@
 <body class="login-page">
 <div class="login-box">
     <div class="login-logo">
-        <a href="#"><b>{$config['appName']}</b></a>
+        <a href="/"><b>{$config['appName']}</b></a>
     </div><!-- /.login-logo -->
     <div class="login-box-body">
   
@@ -43,10 +43,10 @@
         <div class="row">
             <div class="col-xs-8">
                     <a href="/password/reset">忘记密码</a>
-            </div><!-- /.col -->
+            </div>
             <div class="col-xs-4">
                 <a href="/auth/register" class="text-center">免费注册</a>
-            </div><!-- /.col -->
+            </div>
         </div>
         
         
