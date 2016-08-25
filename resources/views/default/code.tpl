@@ -1,15 +1,4 @@
 {include file='header.tpl'}
-<div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-        <br><br>
-        <div class="row center">
-            <h5>邀请码实时刷新</h5>
-            <h5>如遇到无邀请码请找已经注册的用户获取。</h5>
-            {$msg}
-        </div>
-    </div>
-</div>
-
 <div class="container">
     <div class="section">
         <!--   Icon Section   -->
@@ -21,7 +10,7 @@
                         <thead>
                         <tr>
                             <th>###</th>
-                            <th>邀请码 (点击邀请码进入注册页面)</th>
+                            <th>邀请码 (点击进入注册页面)</th>
                             <th>状态</th>
                         </tr>
                         </thead>
@@ -35,7 +24,7 @@
                         {/foreach}
                         </tbody>
                     </table>
-                </div>
+                </div>          
             </div>
         </div>
     </div>
