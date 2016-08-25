@@ -29,10 +29,9 @@
             <div class="col s12 m4">
                 <div class="icon-block">
                     <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-                    <h5 class="center">Super Fast</h5>
-
+                    <h5 class="center">免费注册</h5>
                     <p class="light">
-                        Bleeding edge techniques using Asynchronous I/O and Event-driven programming.
+                        通过邀请码注册就送5G免费流量。
                     </p>
                 </div>
             </div>
@@ -40,10 +39,10 @@
             <div class="col s12 m4">
                 <div class="icon-block">
                     <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-                    <h5 class="center">Open Source</h5>
+                    <h5 class="center">畅通无阻</h5>
 
                     <p class="light">
-                        Totally free and open source. A worldwide community devoted to deliver bug-free code and long-term support.
+                        你可以连接从世界上任何地方， 无障碍访问任何网站或应用程序。 
                     </p>
                 </div>
             </div>
@@ -51,10 +50,10 @@
             <div class="col s12 m4">
                 <div class="icon-block">
                     <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-                    <h5 class="center">Easy to work with</h5>
+                    <h5 class="center">全平台支持</h5>
 
                     <p class="light">
-                        Avaliable on multiple platforms, including PC, MAC, Mobile (Android and iOS) and Routers (OpenWRT).
+                        支持 PC, MAC, LINUX, 手机 (Android and iOS) 和 OpenWRT路由器.
                     </p>
                 </div>
             </div>
