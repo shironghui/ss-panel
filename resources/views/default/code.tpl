@@ -4,7 +4,6 @@
         <!--   Icon Section   -->
         <div class="row">
             <div class="row marketing">
-                <h2 class="sub-header">邀请码</h2>
                 <div class="table-responsive">
                     <table class="table table-striped">
                         <thead>
